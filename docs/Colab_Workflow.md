@@ -1,0 +1,4 @@
+- Mount GitHub in Colab via HTTPS or use GitHub → Colab integration.
+- Keep API tokens out of Git (read from Colab secrets or a local .env that's never committed).
+- Save plots to /reports/figures.
+- Commit notebooks with clear names: 01_physics.ipynb, 02_DA_pf.ipynb, ...
