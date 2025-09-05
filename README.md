@@ -24,3 +24,26 @@ A quantitative, risk-aware digital twin of a UK battery trading strategy. It co-
 - **NESO EAC (Ancillary auction results & context):** official page + Ofgem approval + market explainers. :contentReference[oaicite:2]{index=2}
 
 ## Folder structure
+data/ # raw not tracked
+docs/ # data notes, design docs
+notebooks/ # colab-first workflows
+reports/figures/ # images for the report
+src/ # python modules later
+tests/ # unit tests later
+
+
+## Glossary
+- **SoC:** state of charge (MWh).
+- **Pmax/Em ax:** power/energy limits.
+- **System Price:** imbalance cash-out price (GBP/MWh). :contentReference[oaicite:3]{index=3}
+- **EAC:** Enduring Auction Capability for frequency response/reserve. :contentReference[oaicite:4]{index=4}
+
+## Roadmap (milestones)
+1) Physics engine (deterministic).  
+2) DA optimiser (perfect foresight → rolling).  
+3) Add BM stream (choice/reservation).  
+4) Add Ancillary (capacity & activation).  
+5) Scenario generator (correlated).  
+6) CVaR-aware optimisation.  
+7) Attribution & diagnostics.  
+8) Final visuals + write-up.
