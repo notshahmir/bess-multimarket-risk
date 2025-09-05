@@ -1,0 +1,17 @@
+# data and secrets
+data/*
+!data/.gitkeep
+*.env
+.env*
+*.key
+*_token.txt
+
+# notebooks junk
+.ipynb_checkpoints/
+.notebooks_tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
