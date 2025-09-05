@@ -1,0 +1,10 @@
+# Phase 1 defaults (toy)
+E_max_MWh: 2.0
+P_max_MW: 1.0
+eta_ch: 0.95
+eta_dis: 0.95
+c_deg_per_MWh: 2.0   # £/MWh throughput cost (toy)
+soc0_MWh: 1.0
+soc_min_MWh: 0.0
+soc_max_MWh: 2.0
+delta_t_h: 0.5
