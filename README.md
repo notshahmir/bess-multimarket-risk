@@ -47,3 +47,5 @@ tests/ # unit tests later
 6) CVaR-aware optimisation.  
 7) Attribution & diagnostics.  
 8) Final visuals + write-up.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/notshahmir/bess-multimarket-risk/blob/main/notebooks/01_physics.ipynb)
